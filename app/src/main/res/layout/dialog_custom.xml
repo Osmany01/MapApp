@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/default_margin"
+    android:layout_marginRight="@dimen/default_margin"
+    android:layout_marginTop="@dimen/default_margin"
+    tools:background="@color/dialog_background_translucent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_dialog_close"
+            android:layout_width="@dimen/default_button_dialog_close"
+            android:layout_height="@dimen/default_button_dialog_close"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/background_action_transparent_ripple_blue"
+            android:padding="@dimen/default_button_dialog_close_padding"
+            android:src="@drawable/navbar_close_light" />
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            tools:text="title" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:id="@+id/content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/zoom_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2" />
+
+                <Button
+                    android:id="@+id/zoom_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3" />
+
+                <Button
+                    android:id="@+id/zoom_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="4" />
+
+                <Button
+                    android:id="@+id/zoom_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="5" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/zoom_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="6" />
+
+                <Button
+                    android:id="@+id/zoom_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="7" />
+
+                <Button
+                    android:id="@+id/zoom_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="8" />
+
+                <Button
+                    android:id="@+id/zoom_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="9" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/zoom_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="10" />
+
+                <Button
+                    android:id="@+id/zoom_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="11" />
+
+                <Button
+                    android:id="@+id/zoom_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="12" />
+
+                <Button
+                    android:id="@+id/zoom_13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="13" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/zoom_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="14" />
+
+                <Button
+                    android:id="@+id/zoom_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="15" />
+
+                <Button
+                    android:id="@+id/zoom_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="16" />
+
+                <Button
+                    android:id="@+id/zoom_17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="17" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/zoom_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="18" />
+
+                <Button
+                    android:id="@+id/zoom_19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="19" />
+
+                <Button
+                    android:id="@+id/zoom_20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="20" />
+
+                <Button
+                    android:id="@+id/zoom_21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="21" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
